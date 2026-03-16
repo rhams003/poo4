@@ -1,0 +1,175 @@
+/*no lo borreis que es la fuente de pixel*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #a3a3a3; 
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    image-rendering: pixelated; 
+}
+
+.contenedor-principal {
+    background-color: #ffffff;
+    border: 4px solid #000;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 10px 10px 0px rgba(0,0,0,0.1); 
+    position: relative; 
+}
+
+.boton-volver {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 8px;
+    padding: 8px;
+    border: 2px solid #555;
+}
+
+.boton-volver:hover {
+    background-color: #e3350d; 
+    border-color: #000;
+}
+
+.titulo {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #000;
+    padding-bottom: 10px;
+}
+
+.etiqueta {
+    display: block;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.campo-entrada {
+    font-family: 'Press Start 2P';
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    border: 3px solid #000;
+    background-color: #fff;
+    box-sizing: border-box; /* Evita que el ancho se salga del borde */
+}
+
+.grupo-campos {
+    border: 3px solid #000;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.leyenda-campos {
+    font-size: 8px;
+    background: #000;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+.btn-accion {
+    font-family: 'Press Start 2P';
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #e3350d; 
+    color: white;
+    border: 4px solid #000;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-accion:hover {
+    background-color: #b32a0a;
+    transform: scale(1.02);
+}
+
+.tarjeta {
+    border: 3px solid #000;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.tarjeta-titulo {
+    font-size: 12px;
+    margin: 0;
+    color: #30a7d7; 
+}
+
+.lista-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.item-lista {
+    font-size: 7px;
+    background: #eee;
+    padding: 4px;
+    border: 1px solid #000;
+}
+
+.menu-navegacion {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.enlace-navegacion {
+    color: #000;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.fondoprincipal {
+    background-image: url("img/fondoprincipal.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo1{
+    background-image: url("img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* chicho y chica */
+.contenedor-genero {
+    display: flex;
+    justify-content: space-around; /* Reparte el espacio entre chico y chica */
+    align-items: center; /* Los centra verticalmente */
+    border: 3px solid #000;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.opcion-genero {
+    display: flex;
+    flex-direction: column; /* Pone el botón arriba y la imagen abajo */
+    align-items: center;
+    cursor: pointer;
+    margin: 0; /* Anula el margin del label general para que queden alineados */
+}
+
+.opcion-genero img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border: 2px solid transparent; 
+}
+
+
+
